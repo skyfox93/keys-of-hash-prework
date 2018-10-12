@@ -3,7 +3,7 @@ class Hash
     new_keys=[]
     args.each {|arg|
     values.each_with_index {|val,index|
-      if val==arg 
+      if val==arg
         new_keys << keys[index]
       end
     }
